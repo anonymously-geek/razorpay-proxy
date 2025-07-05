@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 const RAZORPAY_SECRET = process.env.RAZORPAY_SECRET || "your_webhook_secret";
-const HF_BACKEND_URL = process.env.HF_BACKEND_URL || "https://nexnotes-ai.hf.space/webhook/razorpay";
+const HF_BACKEND_URL = process.env.HF_BACKEND_URL || "https://querio-ai.hf.space/webhook/razorpay";
 
 app.use(express.json({
   verify: (req, res, buf) => {
